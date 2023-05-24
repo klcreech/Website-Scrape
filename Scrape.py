@@ -34,7 +34,7 @@ if empty_row == 2:
     for column_index, column_name in enumerate(column_names, start=1):
         sheet.cell(row=1, column=column_index).value = column_name
 
-# Scrape data and check VENUE NAME column
+# Scrape data and check xx column
 while True:
     # Update the URL with the skip value
     url = f"https://www.thesite.org" #add your site as needed add skip if need may be named differently you should get it
@@ -42,7 +42,7 @@ while True:
     # Navigate to the website
     driver.get(url)
 
-    # Find all div.item elements
+    # Find all xx.xx elements
     item_elements = driver.find_elements(By.CSS_SELECTOR, "xx.xx")  #xx.xx = css selector
 
     # If no item elements are found, exit the loop
