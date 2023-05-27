@@ -1,6 +1,14 @@
 # a nice scipt to scrape sites and save to excel file for uploading ...you can have it go through multiple
 # pages also..use css selectors..Modify code as needed....Enjoy! - Kerry
 
+# To use this code:
+
+#  1.Replace the placeholder values with your desired URLs, CSS selectors, file paths, and sheet names.
+#  2.Set the start_index and skip_value variables if you need to iterate through multiple pages.
+#  3.Execute the code to launch the Chrome browser and start scraping the data.
+#  4.The scraped data will be stored in the Excel file specified.
+#  5.After the scraping is complete, the browser will be closed, and the Excel file will be saved.
+
 import openpyxl
 import datetime
 from selenium import webdriver
