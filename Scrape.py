@@ -66,7 +66,7 @@ while True:
             
             empty_row += 1
 
-    # Increment the start index for the next page ** for multiple page scrpes
+    # Increment the start index for the next page ** for multiple page scrapes
     start_index += skip_value
 
 # Save the Excel file
