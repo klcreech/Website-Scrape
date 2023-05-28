@@ -8,6 +8,7 @@
 //  4.The scraped data will be stored in the Excel file specified.
 //  5.After the scraping is complete, the browser will be closed, and the Excel file will be saved.
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
