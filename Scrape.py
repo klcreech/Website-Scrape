@@ -10,6 +10,7 @@
 #  4.The scraped data will be stored in the Excel file specified.
 #  5.After the scraping is complete, the browser will be closed, and the Excel file will be saved.
 
+
 import openpyxl
 import datetime
 from selenium import webdriver
