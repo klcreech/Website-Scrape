@@ -24,6 +24,8 @@ driver = webdriver.Chrome()
 
 
 
+
+
 # Start page index and skip value
 start_index = 12 # use this if you have a skip value in the url
 skip_value = 12 # use this if you have a skip value in the url
