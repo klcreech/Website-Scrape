@@ -27,6 +27,7 @@ driver = webdriver.Chrome()
 start_index = 12 # use this if you have a skip value in the url
 skip_value = 12 # use this if you have a skip value in the url
 
+
 # Load existing Excel workbook or create a new one if it doesn't exist
 try:
     workbook = openpyxl.load_workbook("E:\\xx.xlsx") # xx = rename xls file
