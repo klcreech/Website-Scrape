@@ -18,6 +18,7 @@ from selenium.common.exceptions import NoSuchElementException
 
 
 
+
 # Launch the Chrome Browser
 driver = webdriver.Chrome()
 
